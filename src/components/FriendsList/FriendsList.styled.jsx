@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const List = styled.ul`
   display: flex;
   gap: 15px;
-  flex-direction: column;
+
   justify-content: center;
   align-items: center;
 `;

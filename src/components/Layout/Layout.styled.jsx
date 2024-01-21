@@ -8,8 +8,6 @@ export const Container = styled.div`
   align-items: center;
   padding-left: 30px;
   padding-right: 30px;
-  border: 1px solid #000;
-  box-shadow: 0px 0px 10px rgba(101, 91, 233, 0.897);
 `;
 
 export const Title = styled.h3`
