@@ -1,16 +1,13 @@
+import { FriendsList } from './FriendsList/FriendsList';
+import friends from '../data/friends.json';
+import { GlobalStyle } from './GlobalStyle';
+import { Layout } from './Layout/Layout';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 100,
-        color: '#010101',
-      }}
-    >
-      React Hello!
-    </div>
+    <Layout>
+      <FriendsList items={friends} />
+      <GlobalStyle />
+    </Layout>
   );
 };
