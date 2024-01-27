@@ -16,4 +16,17 @@ code {
     monospace;
 }
 
+ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+p {
+  margin: 0;
+}
 `;
